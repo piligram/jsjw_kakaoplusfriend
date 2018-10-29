@@ -46,6 +46,9 @@ def get_movie_info():
 
         for movie, rate in movie_list:
             msg += "{} : {}\n".format(movie, movie_dict[movie])
+        
+        # 마지막에 rstrip()을 통해 추가적인 개행 제거
+        msg = msg.rstrip()
 
         return msg
     except Exception as e:
