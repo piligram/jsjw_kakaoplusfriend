@@ -7,8 +7,8 @@ import requests
 import json
 from datetime import datetime
 
-from api_src.jypkrw_rate import get_exchange
-from api_src.weather import get_seoul_weather
+from restapi.api_src.jypkrw_rate import get_exchange
+from restapi.api_src.weather import get_seoul_weather
 
 '''
 def get_seoul_weather():
